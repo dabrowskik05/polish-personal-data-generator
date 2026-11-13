@@ -11,7 +11,9 @@ Projekt implementuje algorytmy generowania polskich numerów identyfikacyjnych t
 3. [Struktura projektu](#struktura-projektu)
 4. [Wymagania i instalacja](#wymagania-i-instalacja)
 5. [Instrukcja obsługi](#instrukcja-obsługi)
-6. [Licencja](#licencja)
+6. [Dokumentacja](#dokumentacja)
+7. [Autorzy](#autorzy)
+8. [Licencja](#licencja)
 
 ---
 
@@ -36,7 +38,7 @@ Możliwość zapisu wygenerowanych rekordów do formatów:
 
 * **CSV:** format tekstowy oddzielony średnikami.
 * **JSON:** format obiektowy.
-* **SQL:** baza danych.
+* **SQL:** skrypt SQL (polecenia `CREATE TABLE` i `INSERT`).
 
 Użytkownik ma możliwość dynamicznego wyboru kolumn, które mają znaleźć się w pliku wynikowym.
 
@@ -95,3 +97,21 @@ Projekt podzielony jest na pakiety zgodnie ze wzorcem MVC:
 3. **Zaszumianie (Opcjonalne):** Ustaw suwak "Poziom błędów" na wartość wyższą niż 0%, aby część rekordów zawierała celowe błędy.
 4. **Generowanie:** Kliknij przycisk "GENERUJ DANE". Wyniki zostaną wyświetlone w tabeli po prawej stronie.
 5. **Eksport:** Wybierz format docelowy (CSV, JSON lub SQL), aby zapisać dane na dysku.
+
+---
+
+## Dokumentacja
+
+Dokumentacja projektu, konspekt oraz prezentacja znajdują się w folderze [`docs`](docs):
+
+* [Dokumentacja Projektu](docs/Dokumentacja%20Projektu.pdf)
+* [Konspekt Projektu](docs/Konspekt_Projektu.pdf)
+* [Prezentacja](docs/Prezentacja.pdf)
+
+---
+
+## Autorzy
+
+* Szymon Domański ([@domanskis06](https://github.com/domanskis06))
+* Krzysztof Dąbrowski ([@dabrowskik05](https://github.com/dabrowskik05))
+* Gustaw Gabrylewski ([@familyfriendlyname](https://github.com/familyfriendlyname))
