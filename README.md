@@ -1,5 +1,7 @@
 # Generator Danych Osobowych
 
+> **English:** A Java Swing desktop app that generates realistic fake personal data of Polish citizens (names, addresses, PESEL, NIP, ID card numbers, e-mails, phone numbers) for software testing. It can deliberately inject errors into the data and export results to CSV, JSON or SQL. Created as a university project at Warsaw University of Technology; the documentation below is in Polish.
+
 Aplikacja desktopowa napisana w języku Java, służąca do generowania realistycznych danych testowych dla obywateli Polski. Narzędzie dedykowane jest programistom i testerom oprogramowania, umożliwiając tworzenie dużych zbiorów danych do testów wydajnościowych, integracyjnych oraz weryfikacji walidatorów.
 
 Projekt implementuje algorytmy generowania polskich numerów identyfikacyjnych takich jak: PESEL, NIP oraz numeru dowodu osobistego i posiada unikalny moduł zaszumiania danych do testowania odporności systemów.
@@ -13,7 +15,6 @@ Projekt implementuje algorytmy generowania polskich numerów identyfikacyjnych t
 5. [Instrukcja obsługi](#instrukcja-obsługi)
 6. [Dokumentacja](#dokumentacja)
 7. [Autorzy](#autorzy)
-8. [Licencja](#licencja)
 
 ---
 
